@@ -17,3 +17,7 @@ func BigBark() string {
 func BigBarks() string {
 	return dog.When_grown(Barks())
 }
+
+func LastBark() string {
+	return "Puppy's Last Bark" + Bark()
+}
